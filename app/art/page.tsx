@@ -65,6 +65,24 @@ const artspaces = [
 
 const engagements = [
   {
+    title: "Inauguration of India Art Meet 2026",
+    type: "Curator & Host",
+    location: "P L Deshpande Maharashtra Kala Academy, Mumbai (23 Oct 2026)",
+    desc: "Maneesh Baheti, MD Haute Services Art Advisory & Curator, hosted the inauguration of India Art Meet 2026, an extension of the Awadh Art Festival making its Mumbai debut with 90+ artists. Distinguished guests included Prof. Him Chatterjee, Ms. Nidhi Chaudhari (IAS), Director NGMA Mumbai, and Ms. Nawaz Singhania.",
+    icon: Sparkles,
+    img: "/art/guest/india-art-meet-inauguration.png",
+    contain: true,
+  },
+  {
+    title: "Paramatman – Sukanta Das at Ishatvam",
+    type: "Guest of Honour",
+    location: "Ishatvam, Gurgaon (11 Oct 2026)",
+    desc: "Invited as Guest of Honour at Paramatman, a special presentation of paintings and sculptures by Sukanta Das, with works by a distinguished group of artists and museum-certified artifacts by Varha Heritage, presented by Ishatvam.",
+    icon: Award,
+    img: "/art/guest/paramatman.png",
+    contain: true,
+  },
+  {
     title: "Recognition of Patronage at Bikaner House",
     type: "Guest of Honour",
     location: "Bikaner House, New Delhi (2025)",
@@ -775,7 +793,11 @@ export default function ArtPage() {
                       width={400}
                       height={400}
                       // style={{ objectFit: "contain" }}
-                      className="grayscale-20 group-hover:grayscale-0 object-cover group-hover:scale-105 transition-all duration-1000"
+                      className={`grayscale-20 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000 ${
+                        "contain" in item && item.contain
+                          ? "w-full h-auto lg:h-full object-contain bg-charcoal"
+                          : "object-cover"
+                      }`}
                     />
                   </div>
                   <div className="p-6 lg:p-8 flex-1 flex flex-col">

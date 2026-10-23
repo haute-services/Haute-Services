@@ -32,6 +32,14 @@ type GalleryMoment = {
 
 const uptodateGallery: GalleryMoment[] = [
   {
+    src: "/uptodate/india-art-meet-inauguration.png",
+    alt: "Invitation to the Inauguration of India Art Meet 2026 by curator Maneesh Baheti, Haute Services, on 23 October 2026 at P L Deshpande Maharashtra Kala Academy, Mumbai",
+  },
+  {
+    src: "/uptodate/paramatman.png",
+    alt: "Maneesh Baheti, Guest of Honor at Paramatman, a presentation of paintings and sculptures by Sukanta Das at Ishatvam, Gurgaon",
+  },
+  {
     src: "/fashion/latest/latestupdate.jpeg",
     alt: "Maneesh Baheti and Sonali Anand Baheti at the launch of Awigna Luxury Retail Store in New Delhi",
   },

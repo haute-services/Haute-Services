@@ -10,6 +10,24 @@ export interface MediaItem {
 
 export const mediaCoverage: MediaItem[] = [
     {
+        source: "Business News Week",
+        date: "October 20, 2026",
+        title: "India Art Meet Hosts a Prelude to Their Upcoming Show at the Historic NGMA Mumbai",
+        description: "‘The Living Line’, a curtain-raiser to India Art Meet’s Mumbai debut, explored Indian and Japanese calligraphy at the National Gallery of Modern Art, Mumbai, with the Indo-Japanese Association. Hosted by IAM curator Maneesh Baheti alongside founder Arka Pradhan, ahead of the 23–25 October exhibition at P L Deshpande Maharashtra Kala Academy.",
+        image: "/news/ngma-living-line.jpg",
+        link: "https://businessnewsweek.in/news/india-art-meet-hosts-a-prelude-to-their-upcoming-show-at-the-historic-ngma-mumbai/",
+        category: 'Press'
+    },
+    {
+        source: "Mumbai Mirror",
+        date: "October 19, 2026",
+        title: "New Faces, Fresh Canvases: India Art Meet Makes Its Mumbai Debut",
+        description: "Mumbai Mirror (Unwind, p.15) features curator Maneesh Baheti on the India Art Meet’s Mumbai debut — 90+ artists from across the country, a firm rule against carbon copies, and a platform for lesser-known artists beyond the masters, extending the Awadh Art Festival founded by Arka Pradhan. October 23–25, P L Deshpande Kala Academy, Prabhadevi, Mumbai.",
+        image: "/news/mumbai-mirror-india-art-meet.jpg",
+        link: "",
+        category: 'Press'
+    },
+    {
         source: "Warpaint Journal",
         date: "September 29, 2026",
         title: "Shaping India\'s Luxury Landscape: Maneesh Baheti Featured",
